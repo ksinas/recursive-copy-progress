@@ -4,13 +4,13 @@
   "description": "Recursive copy with progress emitter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/spec/"
   },
   "author": "Karolis Sinas",
   "license": "MIT",
   "dependencies": {
     "extend": "^3.0.0",
-    "progress-stream": "latest",
+    "progress-stream": "^1.2.0",
     "recursive-copy": "^2.0.5",
     "through2": "^2.0.3"
   },
@@ -19,5 +19,9 @@
     "chai-as-promised": "^6.0.0",
     "mocha": "^3.2.0",
     "del": "latest"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ksinas/recursive-copy-progress.git"
   }
 }
