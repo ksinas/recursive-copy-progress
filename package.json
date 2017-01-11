@@ -1,0 +1,23 @@
+{
+  "name": "recursive-copy-progress",
+  "version": "1.0.0",
+  "description": "Recursive copy with progress emitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karolis Sinas",
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "progress-stream": "latest",
+    "recursive-copy": "^2.0.5",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.2.0",
+    "del": "latest"
+  }
+}
