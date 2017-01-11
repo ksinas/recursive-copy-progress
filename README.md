@@ -1,6 +1,6 @@
 # Recursive copy with progress emitter
 **Install**
-`npm install --save git+ssh://git@bitbucket.org:karolismav/recursive-copy-progress.git`
+`npm install --save recursive-copy-progress`
 
 Usage
 -----
